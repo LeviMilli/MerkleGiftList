@@ -8,7 +8,7 @@ let merklin = new MerkleTree(niceList)
 
 const root = merklin.getRoot();
 
-const name = 'Anna Stehr';
+const name = 'Mae Hyatt';
 const index = niceList.findIndex(n => n === name);
 const proof = merklin.getProof(index);
 console.log(index, root, proof)
